@@ -10,7 +10,7 @@ public class DBConnection {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/student_management_db", "root", "Hope@2026");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/DATABASE_NAME", "YOUR_USERNAME", "YOUR_PASSWORD");
 
     }
 }
